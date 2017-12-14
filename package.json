@@ -1,15 +1,25 @@
 {
-  "name": "node-web-server",
+  "name": "web-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
     "hbs": "^4.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewjmead/node-course-2-web-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewjmead/node-course-2-web-server/issues"
+  },
+  "homepage": "https://github.com/andrewjmead/node-course-2-web-server#readme",
+  "description": ""
 }
